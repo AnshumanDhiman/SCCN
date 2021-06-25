@@ -55,8 +55,9 @@
 
   /* Main styles */
   body {
+
     text-align: center;
-    color: #999;
+    color: black;
     /* img size is 50x50 */
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
     -webkit-animation: bg-scrolling-reverse 0.92s infinite;
@@ -74,10 +75,12 @@
   }
 
   body::before {
+
     font-size: 8rem;
     font-weight: 100;
     font-style: normal;
   }
+
 
   .heading1 {
     font-family: 'Roboto', sans-serif;
@@ -107,13 +110,18 @@
   }
 
   .card1 {
-    transition: transform 0.2s ease;
+    transition: transform 0.5s ease;
     margin: auto;
     border-radius: 10px;
-    background-color: #1b2530;
+    background-color:  #1b2530;
     width: 20rem;
+    box-shadow: 10px 10px 5px grey;
   }
 
+.card1:hover {
+  background-color: #1b2545;
+
+}
   .card-img-top {
     height: 300px;
     width: 300px;
@@ -166,4 +174,21 @@ box-shadow: 10px 10px 5px grey;
   color: #03256C;
   font-family: 'Lobster', sans-serif;
   text-align: center;
+}
+
+.iconx {
+  transition: transform 0.2s ease;
+}
+
+.iconx:hover {
+  transform: scale(1.2);
+}
+
+.image2{
+height: 200px;
+width:225px;
+}
+.image3 {
+  height: 125px;
+  width: 250px;
 }
