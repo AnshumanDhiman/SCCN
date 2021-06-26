@@ -78,6 +78,14 @@
     font-style: normal;
   }
 
+  .carousel-size {
+    max-height: 1920px;
+    max-width: 1080px;
+    margin: auto;
+
+  }
+
+
   /*HEADINGS & PARAS*/
   .heading1 {
     font-family: 'Roboto', sans-serif;
@@ -96,6 +104,9 @@
     margin-right: 15%;
     text-align: justify;
   }
+
+
+
 
   /*----------CARDS----------*/
   .card-title {
@@ -166,7 +177,8 @@
     color: #03256C;
     font-family: 'Lobster', sans-serif;
     text-align: center;
-  }
+  }.
+
 
   /*----------IMAGES------------*/
   .image1 {
