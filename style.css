@@ -1,4 +1,4 @@
-  @import url(https://fonts.googleapis.com/css?family=Exo:100);
+  @import url('https://fonts.googleapis.com/css?family=Exo:100');
   @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
@@ -84,7 +84,6 @@
     margin: auto;
 
   }
-
 
   /*HEADINGS & PARAS*/
   .heading1 {
@@ -180,22 +179,6 @@
   }.
 
 
-  /*----------IMAGES------------*/
-  .image1 {
-    height: 45%;
-    width: 45%
-  }
-
-  .image2 {
-    height: 200px;
-    width: 225px;
-  }
-
-  .image3 {
-    height: 125px;
-    width: 250px;
-  }
-
   /*----------ICONS----------*/
   .iconx {
     transition: transform 0.2s ease;
@@ -250,14 +233,38 @@ div.slide-left h1 {
   margin:0;
 }
 
-div.slide-right p {
+div.slide-right h3 {
   -moz-animation: 10s slide-right;
   -webkit-animation: 10s slide-right;
   -o-animation: 10s slide-right;
   animation: 10s slide-right;
   margin:0;
 }
+
+div.slide-right p {
+  -moz-animation: 15s slide-right;
+  -webkit-animation: 15s slide-right;
+  -o-animation: 15s slide-right;
+  animation: 15s slide-right;
+  margin:0;
+}
 div.slide-left h1 {
+  -moz-animation: 10s slide-left;
+  -webkit-animation: 10s slide-left;
+  -o-animation: 10s slide-left;
+  animation: 10s slide-left;
+  margin:0;
+}
+
+div.slide-left h3 {
+  -moz-animation: 10s slide-left;
+  -webkit-animation: 10s slide-left;
+  -o-animation: 10s slide-left;
+  animation: 10s slide-left;
+  margin:0;
+}
+
+div.slide-left p {
   -moz-animation: 10s slide-left;
   -webkit-animation: 10s slide-left;
   -o-animation: 10s slide-left;
